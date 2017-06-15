@@ -1,0 +1,272 @@
+/*HEADER & LINKS*/
+
+header {
+  background-color: black;
+  width: 100%;
+  height: 100px;
+  margin: 0px;
+  border-bottom-color: yellow;
+  border-bottom-style: solid;
+}
+
+.main-hed {
+  color: yellow;
+  font-family: Georgia, Serif;
+  font-weight: bold;
+  font-size: 40px;
+  margin: 0px;
+  padding: 2px 10px 10px 5px;
+}
+
+.links-header {
+  display: block;
+  color: white;
+  float: right;
+  margin: 0px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  font-size: 20px;
+}
+
+.links-header: after {
+  content: " ";
+  clear: both;
+  display: block;
+}
+/*Question for John: I couldn't figure how to create space between the links
+/*Comment for John: For some reason, my header is not being recognized in this code.*/
+/*Float right not working here*/
+
+/*LINK FORMATTING*/
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+#links-impact {
+  font-family: impact, sans-serif;
+}
+
+#links-helvetica {
+  font-family: helvetica, sans-serif;
+}
+
+/*Link formatting broke in the middle of coding*/
+
+/*TWO BRAINS HEADER*/
+
+.sitecontainer2 {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: yellow;
+  border-radius: 10px;
+  background-color: lightgrey;
+}
+
+.twobrainshed {
+  font-size: 25px;
+  font-family: Georgia, Serif;
+  text-align: center;
+  font-style: italic;
+  padding: 20px;
+  border-top: yellow;
+  border-radius: 10px;
+}
+
+#taste {
+  text-decoration: line-through;
+  color: gray;
+}
+
+#are {
+  text-decoration: underline;
+}
+
+/*Comment for John: code just not recognizing any container. Leaving it like this. Hoping to ask you what's going on during office hours.*/
+
+/**MAIN CONTAINER WITH PHOTO*/
+
+.sitecontainer3 {
+  background-image: url(../images/coworking.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;  width: 100%;
+  height: 600px;
+}
+
+.meet-your-match {
+  float: right;
+  width: 230px;
+  height: 270px;
+  padding: 20px;
+  margin-right: 25px;
+  margin-top: 100px;
+  background: #eee;
+  background opacity: .7;
+  z-index: -2;
+}
+
+.match-hed {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.match-body {
+  font-style: helvetica, sans-serif;
+  font-weight: lighter;
+  text-align: left;
+  margin-right: 10px;
+  letter-spacing:0.5px;
+  font-size: 17px;
+}
+
+.create-button {
+  background-color: yellow;
+  text-align: center;
+  padding: 8px;
+  margin-top: 10px;
+  margin-right: 20px;
+  font-family: helvetica;
+  font-weight: lighter;
+  -moz-border-radius: 4px;
+ -webkit-border-radius: 4px;
+ border-radius: 4px;
+
+}
+                                /**BUTTONS CONTAINER*/
+
+.site-container-4 {
+  background-color: lightgrey;
+  color: black;
+  width: 100%;
+  height: 200px;
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  width: 100%;
+  height: 200px;
+}
+
+                                  /*PROFILE*/
+
+.profile {
+  text-align: left;
+  margin-right: 10px;
+  padding: 5px;
+  width: 20%;
+  margin: 10px;
+}
+
+.profile-hed {
+  font-family: Georgia, Serif;
+   font-size: 17px;
+}
+
+.profile-para {
+  font-family: helvetica, sans-serif;
+  letter-spacing: 0.5px;
+  font-size: 14px;
+}
+
+.profile-button {
+  background-color: grey;
+  text-align: center;
+  padding: 8px;
+  margin: 10px;
+  width: 70%;
+  font-family: helvetica;
+  font-weight: lighter;
+  -moz-border-radius: 4px;
+ -webkit-border-radius: 4px;
+ border-radius: 4px;
+}
+
+                                    /*DEVELOPER*/
+
+.developer {
+  text-align: left;
+  padding: 5px;
+  width: 20%;
+  margin: 10px;
+  display: inline-block;
+}
+
+.developer-hed {
+  font-family: Georgia, Serif;
+  font-size: 17px;
+}
+
+.developer-para {
+  font-family: helvetica, sans-serif;
+  letter-spacing: 0.5px;
+  font-size: 14px;
+}
+
+.developer-button {
+  background-color: grey;
+  text-align: center;
+  padding: 8px;
+  margin: 10px;
+  width: 70%;
+  font-family: helvetica;
+  font-weight: lighter;
+  -moz-border-radius: 4px;
+ -webkit-border-radius: 4px;
+ border-radius: 4px;
+}
+
+/*DESIGNER*/
+.designer {
+  text-align: left;
+  padding: 5px;
+  width: 20%;
+  margin: 10px;
+}
+
+.designer-hed {
+  font-family: Georgia, Serif;
+  font-size: 17px;
+}
+
+.designer-para {
+  font-family: helvetica, sans-serif;
+  letter-spacing: 0.5px;
+ font-size: 14px;
+}
+
+.designer-button {
+  background-color: grey;
+  text-align: center;
+  padding: 8px;
+  margin: 10px;
+  width: 70%;
+  font-family: helvetica;
+  font-weight: lighter;
+  -moz-border-radius: 4px;
+ -webkit-border-radius: 4px;
+ border-radius: 4px;
+}
+
+                                    /*FOOTER*/
+
+footer {
+  background: black;
+  width: 100%;
+  height: 50px;
+  color: white;
+}
+
+.matchmaker-footer {
+  padding: 5px;
+  font-size: 14px;
+}
