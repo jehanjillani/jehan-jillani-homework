@@ -1,0 +1,201 @@
+/*
+Project Name: Relaxr
+Client: Your Client
+Author: Jehan Jillani
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     background-color: #f0efef;
+     color: #000;
+     font-size: 18px;
+     font-weight: lighter;
+     font-family: 'Open Sans', sans-serif;
+     line-height: 1.4;
+
+}
+
+/******************************************
+/* HEADER
+/*******************************************/
+
+
+.relaxr-header {
+  background-color: #033048;
+  color: white;
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.relaxr {
+  font-size: 45px;
+  font-weight: bolder;
+  font-style: normal;
+  padding: 10px 30px;
+  margin-left: 20px;
+
+}
+
+.relaxr-nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 20px;
+  font-style: bold;
+  color: #f9e42e;
+  width: 600px;
+}
+
+.relaxr-nav-element {
+  cursor: pointer;
+  padding: 10px 30px;
+}
+
+
+/******************************************
+/* BODY
+/*******************************************/
+
+.relaxr-main {
+  display: flex;
+  justify-content: space-between;
+  color: #033048;
+  margin-top: 20px;
+}
+
+.relaxr-maintext {
+ padding: 10px 30px;
+ margin-left: 20px;
+ width: 850px;
+ line-height: 180%;
+}
+
+h3, h4 {
+  font-size: 36px;
+  margin: 0px;
+  line-height: 100%;
+}
+
+.relaxr-main1, .relaxr-main2 {
+  border-bottom-style: solid;
+  border-color: #606161;
+  border-width: 1px;
+
+}
+/*SIDEBAR*/
+
+.sidebar {
+  width: 450px;
+}
+
+h5, h6 {
+font-size: 28px;
+font-weight: bolder;
+}
+
+.categories {
+  display: block;
+}
+
+.categories-list, .about-text {
+ font-size: 22px;
+}
+
+.about {
+display: block;
+width: 60%;
+}
+
+
+/******************************************
+/* SIGN UP NOW
+/*******************************************/
+.signup-button {
+background-color: #f9e42e;
+height: 80px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.sign-button-text {
+  background-color: #033048;
+  color: white;
+  padding: 10px;
+  width: 200px;
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+
+
+footer {
+  height: 190px;
+  background-color: #121212;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.relaxr-end {
+  color: #f9e42e;
+  font-size: 38px;
+  display: inline;
+  font-weight: bold;
+}
+
+.social-media-button {
+  padding: 10px 10px;
+}
+
+.relaxr-copyright {
+  padding-top: 10px;
+  font-size: 12px;
+  color: white;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
